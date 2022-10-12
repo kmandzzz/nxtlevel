@@ -3,7 +3,9 @@ body {
 	background-color: #fafafa;
 	;
 }
-
+#texto-titulo{
+	color: black;
+}
 #mode-remover,
 #mode-toggler {
 	color: #fff;
