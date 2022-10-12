@@ -6,6 +6,8 @@
 <h1>:tada: Deploy</h1>
 <b> <a href="https://nxtlevel.vercel.app/" title="Ir ao site da NextLevel">NextLevel Universidades</a></b>
 <br>
+<span>Obs: na tela de Login, é só inserir <b>qualquer</b> número de matrícula e senha.</span>
+<br>
 <h1>:clipboard: Desafio</h1>
 Crie apenas a interface para um Sistema de Gestão de Faculdades que deve ser capaz de manter o registo de cursos, disciplinas, professores e alunos de uma Universidade.
 
