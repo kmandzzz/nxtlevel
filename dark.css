@@ -1,0 +1,28 @@
+
+body {
+	color: #f1f1f1;
+	background-color: #2C3333;
+}
+
+#texto-card{
+	color: rgb(65, 65, 65);
+}
+#mode-remover,
+#mode-toggler {
+	color: #252526;
+	background-color: #fff;
+}
+
+.header,
+footer {
+	background-color: #252526;
+}
+
+.header-description {
+	color: #aaa;
+}
+
+.btn:hover {
+	color: #152121;
+}
+

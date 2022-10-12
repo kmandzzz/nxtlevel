@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="assets/nextlevel-icon.png">
+  <title>
+    Portal NextLevel Universidades - Você em outro nível | Acesso ao portal
+  </title>
+  <meta name="author" content="Amanda Oliveira" /> <!-- amandadias8123@gmail.com / Feito com Amor <3 -->
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+  <link id="dm-light" rel="stylesheet" type="text/css" href="light.css">
+  <link id="dm-dark" rel="stylesheet" type="text/css" href="dark.css">
+</head>
+<!-- Início do Body -->
+
+<body>
+  <!-- Seção Credenciais do Usário na Plataforma -->
+  <main class="animate__animated animate__fadeInLeft">
+    <h1>
+      NextLevel<br />
+      Universidades
+    </h1>
+    <small>Você em outro nível.</small>
+    <form action="homePage.html">
+      <label for="name">
+        <span>Matrícula</span>
+        <input type="number" id="name" name="name" required />
+      </label>
+
+      <label for="password">
+        <span>Senha de acesso</span>
+        <input type="password" id="password" name="password" autocomplete="current-password" onclick="showPassword();"
+          required /><i class="far fa-eye" id="togglePassword"></i>
+      </label>
+
+      <input type="submit" value="Acessar" id="button" />
+    </form>
+
+    <div class="social-media">
+      <a href="#">
+        <p><u>Esqueceu sua senha? </u></p>
+      </a>
+    </div>
+  </main>
+  <!--Fim da Seção Credenciais do Usuário na Plataforma -->
+
+  <!-- Imagem lateral -->
+  <section class="images animate__animated animate__fadeInRight">
+    <img src="assets/mobile.svg" alt="Mobile" />
+    <div class="circle"></div>
+  </section>
+  <!-- Fim Imagem lateral -->
+
+  <!--Fim do Body -->
+</body>
+<script src="js/script.js"></script>
+
+</html>

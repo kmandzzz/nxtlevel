@@ -1,0 +1,29 @@
+body {
+	color: #152121;
+	background-color: #fafafa;
+	;
+}
+
+#mode-remover,
+#mode-toggler {
+	color: #fff;
+	background-color: #252526;
+}
+
+header,
+footer {
+	background-color: #f8f8f8;
+}
+
+.header-description {
+	color: #aaa;
+}
+
+body::-webkit-scrollbar {
+  width: 0.5em;
+}
+body::-webkit-scrollbar-thumb {
+  background-color:#202020;
+  border-radius:16px;
+  border:5px solid rgb(88, 88, 88)
+}
